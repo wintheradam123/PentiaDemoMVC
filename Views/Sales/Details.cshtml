@@ -1,21 +1,23 @@
 ﻿@model SalesPerson
 
 <h1>@Model.Name</h1>
-@* <p>Order Count: @Model.OrderCount</p> *@
+<p>Order Count: @Model.OrderCount</p>
 
 <h2>Orders</h2>
 <table>
     <tr>
-        <th>Order ID</th>
+        <th>ID</th>
+        <th>Name</th>
         <th>Date</th>
-        <th>Amount</th>
+        <th>Price</th>
     </tr>
     @foreach (var order in ViewBag.Orders)
     {
         <tr>
             <td>@order.Id</td>
-            <td>@order.OrderDate.ToShortDateString()</td>
-            @* <td>@order.Amount</td> *@
+            <td>@order.OrderName</td>
+            <td>@order.OrderDate</td>
+            <td>@order.OrderPrice</td>
         </tr>
     }
 </table>

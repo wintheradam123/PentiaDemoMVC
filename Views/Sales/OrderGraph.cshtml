@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Order Graph";
+    var monthlyOrders = (IEnumerable<dynamic>)ViewBag.MonthlyOrders;
+}
+
+<h1>Order Volume Overview</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Month</th>
+            <th>Order Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in monthlyOrders)
+        {
+            <tr>
+                <td>@order.Month</td>
+                <td>@order.OrderCount</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Alt nedenfor dette er ChatGPT -->
+
+<!-- Canvas for Graph -->
+<canvas id="orderGraph" width="800" height="400"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Prepare data for the chart
+    const labels = @Html.Raw(Json.Serialize(monthlyOrders.Select(o => o.Month)));
+    const data = @Html.Raw(Json.Serialize(monthlyOrders.Select(o => o.OrderCount)));
+
+    // Chart.js configuration
+    const ctx = document.getElementById('orderGraph').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Order Volume',
+                data: data,
+                backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>

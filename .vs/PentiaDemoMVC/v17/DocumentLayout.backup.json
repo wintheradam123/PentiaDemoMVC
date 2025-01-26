@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\git\\PentiaDemoMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\views\\sales\\ordergraph.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:views\\sales\\ordergraph.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +19,24 @@
       "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\models\\salesperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:models\\salesperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\views\\sales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:views\\sales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\models\\salesperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:models\\salesperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|d:\\git\\pentiademomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F92A4B94-C4EC-4F56-BAD8-175F2748A767}|PentiaDemoMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,46 +94,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "OrderGraph.cshtml",
+              "DocumentMoniker": "D:\\git\\PentiaDemoMVC\\Views\\Sales\\OrderGraph.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sales\\OrderGraph.cshtml",
+              "ToolTip": "D:\\git\\PentiaDemoMVC\\Views\\Sales\\OrderGraph.cshtml",
+              "RelativeToolTip": "Views\\Sales\\OrderGraph.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T15:11:35.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\git\\PentiaDemoMVC\\Views\\Sales\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Sales\\Details.cshtml",
               "ToolTip": "D:\\git\\PentiaDemoMVC\\Views\\Sales\\Details.cshtml",
               "RelativeToolTip": "Views\\Sales\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-26T13:50:13.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\git\\PentiaDemoMVC\\Views\\Sales\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Sales\\Index.cshtml",
               "ToolTip": "D:\\git\\PentiaDemoMVC\\Views\\Sales\\Index.cshtml",
               "RelativeToolTip": "Views\\Sales\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-26T13:49:29.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SalesController.cs",
               "DocumentMoniker": "D:\\git\\PentiaDemoMVC\\Controllers\\SalesController.cs",
               "RelativeDocumentMoniker": "Controllers\\SalesController.cs",
               "ToolTip": "D:\\git\\PentiaDemoMVC\\Controllers\\SalesController.cs",
               "RelativeToolTip": "Controllers\\SalesController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T13:48:46.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\git\\PentiaDemoMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -142,26 +159,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\git\\PentiaDemoMVC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\git\\PentiaDemoMVC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T13:45:42.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ApiService.cs",
               "DocumentMoniker": "D:\\git\\PentiaDemoMVC\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "Services\\ApiService.cs",
               "ToolTip": "D:\\git\\PentiaDemoMVC\\Services\\ApiService.cs",
               "RelativeToolTip": "Services\\ApiService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowEgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T13:41:06.372Z",
               "EditorCaption": ""
@@ -174,19 +191,20 @@
               "RelativeDocumentMoniker": "Models\\Order.cs",
               "ToolTip": "D:\\git\\PentiaDemoMVC\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:34:54.516Z"
+              "WhenOpened": "2025-01-26T13:34:54.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Salesperson.cs",
               "DocumentMoniker": "D:\\git\\PentiaDemoMVC\\Models\\Salesperson.cs",
               "RelativeDocumentMoniker": "Models\\Salesperson.cs",
               "ToolTip": "D:\\git\\PentiaDemoMVC\\Models\\Salesperson.cs",
               "RelativeToolTip": "Models\\Salesperson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T13:34:41.98Z",
               "EditorCaption": ""

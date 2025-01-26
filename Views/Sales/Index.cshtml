@@ -4,6 +4,7 @@
 <table>
     <tr>
         <th>Name</th>
+        <th>Order count</th>
         <th>Hire date</th>
         <th>Address</th>
         <th>City</th>
@@ -14,12 +15,11 @@
     {
         <tr>
             <td>@salesperson.Name</td>
+            <td>@salesperson.OrderCount</td>
             <td>@salesperson.HireDate</td>
             <td>@salesperson.Address</td>
             <td>@salesperson.City</td>
             <td>@salesperson.ZipCode</td>
-
-            @* <td>@salesperson.OrderCount</td> *@
             <td><a href="/Sales/Details/@salesperson.Id">View Details</a></td>
         </tr>
     }

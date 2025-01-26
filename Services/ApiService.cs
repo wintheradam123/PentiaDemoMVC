@@ -50,7 +50,14 @@ namespace PentiaDemoMVC.Services
                 response.EnsureSuccessStatusCode();
 
                 var json = await response.Content.ReadAsStringAsync();
-                orders = JsonSerializer.Deserialize<List<Order>>(json);
+
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true,
+                    Converters = { new CustomDateTimeConverter() }
+                };
+
+                orders = JsonSerializer.Deserialize<List<Order>>(json, options);
 
                 var cacheEntryOptions = new MemoryCacheEntryOptions()
                     .SetSlidingExpiration(TimeSpan.FromMinutes(30));
@@ -59,6 +66,19 @@ namespace PentiaDemoMVC.Services
             }
 
             return orders;
+        }
+
+        public async Task<List<SalesPerson>> GetSalespeopleWithOrderCountAsync()
+        {
+            var salespeople = await GetSalespeopleAsync();
+            var orders = await GetOrdersAsync();
+
+            foreach (var salesperson in salespeople)
+            {
+                salesperson.OrderCount = orders.Count(o => o.SalespersonId == salesperson.Id);
+            }
+
+            return salespeople;
         }
     }
 }
