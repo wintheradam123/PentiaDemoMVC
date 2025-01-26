@@ -1,7 +1,15 @@
+using PentiaDemoMVC.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddMemoryCache();
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient<ApiService>(client =>
+{
+    client.BaseAddress = new Uri("https://azurecandidatetestapi.azurewebsites.net/api/v1.0/");
+    client.DefaultRequestHeaders.Add("ApiKey", "test1234");
+});
 
 var app = builder.Build();
 

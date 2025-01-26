@@ -1,0 +1,26 @@
+﻿@model IEnumerable<PentiaDemoMVC.Models.SalesPerson>
+
+<h1>Salespeople</h1>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Hire date</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>Zip code</th>
+        <th>Details</th>
+    </tr>
+    @foreach (var salesperson in Model)
+    {
+        <tr>
+            <td>@salesperson.Name</td>
+            <td>@salesperson.HireDate</td>
+            <td>@salesperson.Address</td>
+            <td>@salesperson.City</td>
+            <td>@salesperson.ZipCode</td>
+
+            @* <td>@salesperson.OrderCount</td> *@
+            <td><a href="/Sales/Details/@salesperson.Id">View Details</a></td>
+        </tr>
+    }
+</table>
