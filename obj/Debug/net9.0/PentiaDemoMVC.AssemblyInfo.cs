@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PentiaDemoMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc93856f2343dc3e42f01a4bcced8938defcf86f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed571e8be0d773a5ecc54b5925a6a48613d44cb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("PentiaDemoMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PentiaDemoMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

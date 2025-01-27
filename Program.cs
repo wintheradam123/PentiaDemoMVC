@@ -11,6 +11,12 @@ builder.Services.AddHttpClient<ApiService>(client =>
     client.DefaultRequestHeaders.Add("ApiKey", "test1234");
 });
 
+builder.Services.AddLogging(config =>
+{
+    config.AddConsole();
+    config.AddDebug();
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
